@@ -1,0 +1,120 @@
+body{
+    background-color:#1C1E26;
+}
+
+.topleft{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.img1 img{
+    width: 20px;
+    height:20px;
+}
+
+
+.img2 img{
+    width: 150px;
+    height:50px;
+}
+.img1{
+    margin-top: 13px;
+
+}
+.img2{
+    margin-left: 15px;
+}
+
+
+.topright ul  {
+ display: flex;
+}
+
+.alltop{
+    display: flex;
+    justify-content: space-between;
+}
+.topright ul a{
+    text-decoration: none;
+    margin-right: 45px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+.topright ul li{
+    list-style: none;   
+}
+
+.topright{
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.left{
+    position: absolute;
+    top: 0%;
+    left: 23%;
+}
+.lamp img{
+    width: 170px;
+    height: 330px;
+}
+
+.light{
+    margin-left: -170px;
+    margin-top: -10px;
+}
+.light img{
+    width:500px;
+}
+
+.right h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.right{
+    position:absolute;
+    left: 50%;
+    margin-top:90px;
+}
+.lightingletter {
+    margin-top: -30px;
+}
+.right h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.right p {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.letter{
+    margin-top: -23px;
+}
+
+.last a{
+  color: white; 
+  cursor: pointer;
+  font-size: 20px; 
+  background-color: red;
+  position: absolute;
+  margin-top: 10px;
+}
+.last{
+    margin-top: 20px;
+    width:200px;
+    background-color: #4C8C83;
+    height: 50px;
+    text-align: center;
+    border-radius: 100px;
+}
